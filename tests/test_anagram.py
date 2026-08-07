@@ -6,6 +6,8 @@ class TestAnagram(unittest.TestCase):
         self.assertTrue(is_anagram("dusty","study"))
     def test_contain_capital_letters(self):
         self.assertTrue(is_anagram("Dusty","Study"))
+    def test_contain_punctuation(self):
+        self.assertTrue(is_anagram("night!","thing?"))
 
 if __name__ == "__main__":
     unittest.main()
