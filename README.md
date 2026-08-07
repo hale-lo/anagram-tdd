@@ -4,7 +4,8 @@ An anagram identifier application,
 
 ## Features
 
--
+- Compares words and phrases to determine whether they are anagrams.
+- Ignores capitalisation, punctuation
 
 ## Project structure
 
