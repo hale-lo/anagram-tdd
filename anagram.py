@@ -1,2 +1,4 @@
 def is_anagram(first_text: str, second_text: str) -> bool:
-    return False
+    first_text = sorted(first_text)
+    second_text = sorted(second_text)
+    return first_text == second_text
